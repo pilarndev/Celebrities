@@ -2,10 +2,10 @@ import "./App.css";
 import { useState } from "react";
 
 // import my components
-import { Start } from "./assets/Start";
-import { Final } from "./assets/Final";
-import { Categories } from "./assets/Categories";
-import { Celebrities } from "./assets/Celebrities";
+import { Start } from "./components/Start";
+import { Final } from "./components/Final";
+import { Categories } from "./components/Categories";
+import { Celebrities } from "./components/Celebrities";
 
 function App() {
   const [isGameEnded, setGameEnded] = useState(false);

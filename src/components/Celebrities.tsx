@@ -99,7 +99,7 @@ export function Celebrities(props: {
           <SwiperSlide key={celebrity.id} data-key={celebrity.id}>
             <Celebrity
               id={celebrity.id}
-              image={`src/assets/${celebrity.image}`}
+              image={`/${celebrity.image}`}
               correctAnswer={celebrity.correctAnswer}
               onAnswered={isAllAnswered}
               gamePoints={gamePoints}

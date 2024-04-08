@@ -16,13 +16,13 @@ export function Start(props: { startGame: (ended: boolean) => void }) {
       </div>
       <div className="flex">
         <div>
-          <img src="src/assets/1.png" alt="celebrity1" />
+          <img src="/1.png" alt="celebrity1" />
         </div>
         <div>
-          <img src="src/assets/2.png" alt="celebrity2" />
+          <img src="/2.png" alt="celebrity2" />
         </div>
         <div>
-          <img src="src/assets/3.png" alt="celebrity3" />
+          <img src="/3.png" alt="celebrity3" />
         </div>
       </div>
       <MyButton text="Play" onClick={startGame} />
