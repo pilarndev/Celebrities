@@ -1,3 +1,5 @@
+Celebrities is a web application built with React, TypeScript, and Vite that challenges users to guess the name of a famous person based on a drawn illustration. The only hint provided is the number of letters in their name. Test your knowledge and see how many celebrities you can recognize! Try it out here https://celebrities-alpha.vercel.app/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
